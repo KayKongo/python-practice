@@ -1,7 +1,6 @@
 def main():
-    name = input("What\'s your name? ")
-    hello(name)
-    goodbye(name)
+    hello("world")
+    goodbye("world")
 
 def hello(name):
     print(f"Hello, {name}")

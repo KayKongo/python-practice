@@ -1,5 +1,9 @@
+import sys
 from sayings import hello
 from sayings import goodbye
 
-hello("Kay")
-goodbye("Elsie")
+
+if len(sys.argv) == 2:
+    name = sys.argv[1]
+    hello(name)
+    goodbye(name)
