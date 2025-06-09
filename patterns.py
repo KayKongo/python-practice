@@ -11,4 +11,5 @@ def print_pattern1():
 def main():
     print_pattern1()
 
-main()
+if __name__ == "__main__":
+    main()
